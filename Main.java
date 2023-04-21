@@ -24,9 +24,11 @@ class Main {
         case "1":
           System.out.println("Podaj imie");
           String name = sc.nextLine();
+          System.out.println("Podaj nazwisko");
+          String last = sc.nextLine();
           System.out.println("Podaj wiek");
           int age = sc.nextInt();
-          s.addStudent(new Student(name, age));
+          s.addStudent(new Student(name,last, age));
           
           break;
         case "2":
