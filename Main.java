@@ -22,13 +22,13 @@ class Main {
       String opcje = sc.nextLine();
       switch(opcje){
         case "1":
-          System.out.println("Podaj imie:");
+          System.out.println("Podaj imie: ");
           String name = sc.nextLine();
-          System.out.println("Podaj nazwisko:");
+          System.out.println("Podaj nazwisko: ");
           String last = sc.nextLine();
-          System.out.println("Podaj wiek:");
+          System.out.println("Podaj wiek: ");
           int age = sc.nextInt();
-          System.out.println("Podaj adres:");
+          System.out.println("Podaj adres: ");
           String adres = sc.next();
           s.addStudent(new Student(name,last, age, adres));
           
