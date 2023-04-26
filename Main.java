@@ -18,15 +18,16 @@ class Main {
       Scanner sc = new Scanner(System.in);
       System.out.println("1.Dodaj nowego studenta");
       System.out.println("2.Wyswietl wszystkich studentow");
+      System.out.println("3.Wyszukaj studenta");
       System.out.println("0.Wyjscie");
       String opcje = sc.nextLine();
       switch(opcje){
         case "1":
           System.out.println("Podaj imie:");
           String name = sc.nextLine();
-          System.out.println("Podaj nazwisko:");
+          System.out.println("Podaj nazwisko: ");
           String last = sc.nextLine();
-          System.out.println("Podaj wiek:");
+          System.out.println("Podaj wiek: ");
           int age = sc.nextInt();
           System.out.println("Podaj adres: ");
           String adres = sc.next();
@@ -39,6 +40,9 @@ class Main {
         System.out.println(current.ToString());
       }
         break;
+        case "3":
+        
+          break;
         case "0":
           System.out.println("Wyjscie");
           break;
