@@ -28,7 +28,9 @@ class Main {
           String last = sc.nextLine();
           System.out.println("Podaj wiek:");
           int age = sc.nextInt();
-          s.addStudent(new Student(name,last, age));
+          System.out.println("Podaj adres:");
+          String adres = sc.next();
+          s.addStudent(new Student(name,last, age, adres));
           
           break;
         case "2":
